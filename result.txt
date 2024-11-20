@@ -1,0 +1,42 @@
+root           1  0.2  0.1  21820 13072 ?        Ss   19:54   0:05 /sbin/init
+root           2  0.0  0.0   2616  1440 ?        Sl   19:54   0:00 /init
+root          11  0.0  0.0   2652   136 ?        Sl   19:54   0:01 plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --log-truncate
+root          56  0.0  0.2  50436 19844 ?        S<s  19:54   0:01 /usr/lib/systemd/systemd-journald
+root          98  0.1  0.0  23960  5936 ?        Ss   19:54   0:02 /usr/lib/systemd/systemd-udevd
+root         112  0.0  0.0  23864  3188 ?        S    19:54   0:00 (udev-worker)
+root         113  0.0  0.0  24292  4628 ?        S    19:54   0:00 (udev-worker)
+root         114  0.0  0.0  23864  5196 ?        S    19:54   0:01 (udev-worker)
+root         115  0.0  0.0  23864  3232 ?        S    19:54   0:00 (udev-worker)
+root         116  0.0  0.0  23864  3204 ?        S    19:54   0:00 (udev-worker)
+root         118  0.0  0.0  23864  4432 ?        S    19:54   0:00 (udev-worker)
+root         119  0.0  0.0  23864  4240 ?        S    19:54   0:00 (udev-worker)
+root         122  0.0  0.0  24000  4092 ?        S    19:54   0:00 (udev-worker)
+root         123  0.0  0.0  23864  3276 ?        S    19:54   0:00 (udev-worker)
+root         124  0.1  0.0  23864  4996 ?        S    19:54   0:02 (udev-worker)
+root         125  0.0  0.0  23864  3144 ?        S    19:54   0:00 (udev-worker)
+root         126  0.0  0.0  23864  4384 ?        S    19:54   0:00 (udev-worker)
+root         127  0.0  0.0  23864  3148 ?        S    19:54   0:00 (udev-worker)
+root         129  0.0  0.0  23864  3084 ?        S    19:54   0:00 (udev-worker)
+root         130  0.0  0.0  23864  3180 ?        S    19:54   0:00 (udev-worker)
+root         133  0.0  0.0  23864  3084 ?        S    19:54   0:00 (udev-worker)
+root         135  0.0  0.0  23864  3084 ?        S    19:54   0:01 (udev-worker)
+root         137  0.0  0.0  23864  3092 ?        S    19:54   0:00 (udev-worker)
+root         138  0.0  0.0  23864  3096 ?        S    19:54   0:00 (udev-worker)
+root         139  0.0  0.0  23864  4752 ?        S    19:54   0:00 (udev-worker)
+root         151  0.0  0.0   4236  2664 ?        Ss   19:54   0:00 /usr/sbin/cron -f -P
+root         167  0.0  0.1  18144  8212 ?        Ss   19:54   0:00 /usr/lib/systemd/systemd-logind
+root         180  0.0  0.0   3160  1076 hvc0     Ss+  19:54   0:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+root         188  0.0  0.0   3116  1228 tty1     Ss+  19:54   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         235  0.0  0.2 107000 22552 ?        Ssl  19:54   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         342  0.0  0.0   2616   120 ?        Ss   19:54   0:00 /init
+root         343  0.0  0.0   2616   120 ?        S    19:54   0:00 /init
+root         345  0.0  0.0   6820  4484 pts/1    Ss   19:54   0:00 /bin/login -f
+root       12115  0.0  0.0  14320  7072 pts/0    S+   20:23   0:00 sudo su
+root       12142  0.0  0.0  14320  1260 pts/2    Ss   20:23   0:00 sudo su
+root       12143  0.0  0.0   6800  3780 pts/2    S    20:23   0:00 su
+root       12146  0.0  0.1  20316 11532 ?        Ss   20:23   0:00 /usr/lib/systemd/systemd --user
+root       12147  0.0  0.0  21152  1708 ?        S    20:23   0:00 (sd-pam)
+root       12158  0.0  0.0   5016  4160 pts/2    S    20:23   0:00 bash
+root       13592  0.0  0.0   4752  3324 pts/2    S+   20:27   0:00 /bin/bash ./myscript.sh
+root       13594  0.0  0.0   8280  4192 pts/2    R+   20:27   0:00 ps aux
+root       13595  0.0  0.0   4092  1964 pts/2    S+   20:27   0:00 grep ^root
